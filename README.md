@@ -1,8 +1,8 @@
-TikTok Content Classification: Claims and Opinions
-This Jupyter notebook classifies TikTok content into claims and opinions using machine learning techniques.
+TikTok Content Classification: Claims and Opinions:
+	This Jupyter notebook classifies TikTok content into claims and opinions using machine learning techniques.
 
 Project Overview:
-The notebook aims to develop a model that can automatically distinguish between factual claims and subjective opinions in TikTok video content. This classification is crucial for content moderation and understanding user-generated content on the platform.
+	The notebook aims to develop a model that can automatically distinguish between factual claims and subjective opinions in TikTok video content. This classification is crucial for content moderation and understanding user-generated content on the platform.
 
 Key Features:
 		Data Preprocessing: Cleaning and preparing TikTok video text data for analysis.
@@ -28,11 +28,11 @@ Expected Outcomes:
 		This project contributes to the broader field of content analysis and moderation in social media platforms.
 
 
-Salifort Motors: Employee Churn Prediction
-This Jupyter notebook focuses on predicting employee churn for Salifort Motors using machine learning techniques.
+Salifort Motors: Employee Churn Prediction:
+	This Jupyter notebook focuses on predicting employee churn for Salifort Motors using machine learning techniques.
 
 Project Overview:
-The notebook aims to develop a model that predicts which employees are more likely to leave the company (churn). This predictive analysis can help Salifort Motors in retention strategies and workforce planning.
+	The notebook aims to develop a model that predicts which employees are more likely to leave the company (churn). This predictive analysis can help Salifort Motors in retention strategies and workforce planning.
 
 Key Features:
 		Data Exploration: Analyzing employee data to identify patterns and potential factors influencing churn.
