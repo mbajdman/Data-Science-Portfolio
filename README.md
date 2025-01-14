@@ -3,8 +3,9 @@ TikTok Content Classification and Salifort Motors Employee Churn Prediction
 
 This repository contains two Jupyter notebooks for data science projects:
 
-1. Classifying Claims and Opinions in TikTok Content
-2. Predicting Employee Churn for Salifort Motors
+1. Prediction of Amazon Stock Price Direction
+2. Classifying Claims and Opinions in TikTok Content
+3. Predicting Employee Churn for Salifort Motors
 
 Project 1: TikTok Content Classification
 ---------------------------------------
