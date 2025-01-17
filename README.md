@@ -3,11 +3,39 @@ Data Science Portfolio
 
 This repository contains two Jupyter notebooks for data science projects:
 
-1. Prediction of Amazon Stock Price Direction
-2. Classifying Claims and Opinions in TikTok Content
-3. Predicting Employee Churn for Salifort Motors
+1. Amazon Stock Price Direction
+2. TikTok Content Moderation
+3. Employee Churn for HR Department
 
-Project 1: TikTok Content Classification
+Project 1: Amazon Stock Price Direction
+---------------------------------------
+
+File: Prediction_of_Stock_Price_Direction.ipynb
+
+Overview:
+The project focuses on creating  machine learning algorithm designed to forecast the directional movement of Amazon's stock price. By analyzing historical stock data, the model aims to predict whether the price will rise or fall. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
+
+Key Features:
+- Data exploration and analysis of historical Amazon stock prices.
+- Feature engineering, including calculating moving averages and price ranges.
+- Implementation and training of classical machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) and a deep learning model (Feedforward Neural Network).
+- Model evaluation and comparison using the AUC metric on validation and test sets.
+- Feature importance analysis to identify key drivers of stock price direction.
+
+Technologies:
+- Python
+- Pandas
+- Scikit-learn
+- Keras
+- Tensorflow
+
+Expected Outcomes:
+- ML capable of predicting the direction of Amazon stock price movement.
+- Insights into the predictive power of various features (e.g., trading volume, moving averages).
+- Performance metrics of the different models, highlighting the best-performing approach for this task.
+- Understanding of the challenges and limitations of predicting stock price movements.
+
+Project 2: TikTok Content Moderation
 ---------------------------------------
 
 File: classifying-claims-and-opinions-in-tiktok-content.ipynb
@@ -33,7 +61,7 @@ Expected Outcomes:
 - Insights into characteristics of claims vs. opinions in social media
 - Performance metrics of the classification model
 
-Project 2: Salifort Motors Employee Churn Prediction
+Project 3: Employee Churn Prediction
 ---------------------------------------------------
 
 File: salifort-motors-predicting-employee-churn.ipynb
