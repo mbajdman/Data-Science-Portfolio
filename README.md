@@ -1,4 +1,4 @@
-TikTok Content Classification and Salifort Motors Employee Churn Prediction
+Data Science Portfolio
 ===========================================================================
 
 This repository contains two Jupyter notebooks for data science projects:
