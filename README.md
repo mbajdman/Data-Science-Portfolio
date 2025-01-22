@@ -4,8 +4,9 @@ Data Science Portfolio
 This repository contains two Jupyter notebooks for data science projects:
 
 1. Amazon Stock Price Direction
-2. TikTok Content Moderation
-3. Employee Churn for HR Department
+2. Real Estate Engagement
+3. TikTok Content Moderation
+4. Employee Churn for HR Department
 
 Project 1: Amazon Stock Price Direction
 ---------------------------------------
@@ -13,7 +14,7 @@ Project 1: Amazon Stock Price Direction
 File: Prediction_of_Stock_Price_Direction.ipynb
 
 Overview:
-The project focuses on creating  machine learning algorithm designed to forecast the directional movement of Amazon's stock price. By analyzing historical stock data, the model aims to predict whether the price will rise or fall. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
+The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
 
 Key Features:
 - Data exploration and analysis of historical Amazon stock prices.
