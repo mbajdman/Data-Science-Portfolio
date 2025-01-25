@@ -11,7 +11,7 @@ This repository contains two Jupyter notebooks for data science projects:
 Project 1: Amazon Stock Price Direction
 ---------------------------------------
 
-File: Prediction_of_Stock_Price_Direction.ipynb
+File: Stock_Price_Direction.ipynb
 
 Overview:
 The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
@@ -36,7 +36,36 @@ Expected Outcomes:
 - Performance metrics of the different models, highlighting the best-performing approach for this task.
 - Understanding of the challenges and limitations of predicting stock price movements.
 
-Project 2: TikTok Content Moderation
+Project 2: Real Estate Engagement
+---------------------------------------
+
+File: Property_Click_Prediction.ipynb
+
+The project aims to develop a machine learning model that predicts the number of interactions (clicks or views) a property will receive within a specific timeframe of its activation on a real estate platform. By analyzing historical property data and interaction patterns, the model strives to forecast property engagement, which can be valuable for real estate businesses aiming to optimize property listings and marketing strategies.
+
+Key Features:
+- Data exploration and preprocessing of property features (e.g., size, location, amenities) and interaction timestamps.
+- Feature engineering, including calculating time-based features and handling categorical variables.
+- Implementation and training of classical machine learning models (Linear Regression, Decision Tree, Random Forest, XGBoost) and potentially a deep learning model.
+- Model evaluation and comparison using metrics such as Root Mean Squared Error (RMSE) and R-squared.
+- Feature importance analysis to understand the key factors influencing property interactions.
+- Handling imbalanced datasets for classification tasks (predicting interaction categories).
+
+Technologies:
+- Python
+- Pandas
+- Scikit-learn
+- XGBoost
+- Keras
+  
+Expected Outcomes:
+- A machine learning model capable of predicting the number of interactions a property will receive.
+- Insights into the predictive power of various property features and their impact on user engagement.
+- Performance metrics of different models, highlighting the most accurate approach for this task.
+- Understanding of the challenges and limitations of predicting property interactions in the real estate market.
+
+
+Project 3: TikTok Content Moderation
 ---------------------------------------
 
 File: classifying-claims-and-opinions-in-tiktok-content.ipynb
@@ -62,7 +91,7 @@ Expected Outcomes:
 - Insights into characteristics of claims vs. opinions in social media
 - Performance metrics of the classification model
 
-Project 3: Employee Churn Prediction
+Project 4: Employee Churn Prediction
 ---------------------------------------------------
 
 File: salifort-motors-predicting-employee-churn.ipynb
