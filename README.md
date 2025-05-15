@@ -13,7 +13,7 @@ This repository contains six Jupyter notebooks for data science projects:
 Project 1: DoorDash Fraudulent Users
 ---------------------------------------
 
-File: Stock_Price_Direction.ipynb
+File: DoorDash_Fraudulent_User.ipynb
 
 Overview:
 The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
@@ -41,7 +41,7 @@ Expected Outcomes:
 Project 2: A/B Testing with Python
 ---------------------------------------
 
-File: Stock_Price_Direction.ipynb
+File: AB Testing Email Sign-Up.ipynb
 
 Overview:
 The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
