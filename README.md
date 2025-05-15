@@ -1,12 +1,14 @@
 Data Science Portfolio
 ===========================================================================
 
-This repository contains two Jupyter notebooks for data science projects:
+This repository contains six Jupyter notebooks for data science projects:
 
-1. Amazon Stock Price Direction
-2. Real Estate Engagement
-3. TikTok Content Moderation
-4. Employee Churn for HR Department
+1. DoorDash Fraudulent Users
+2. A/B Testing with Python
+3. Amazon Stock Price Direction
+4. Real Estate Engagement
+5. TikTok Content Moderation
+6. Employee Churn for HR Department
 
 Project 1: Amazon Stock Price Direction
 ---------------------------------------
