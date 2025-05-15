@@ -10,7 +10,7 @@ This repository contains six Jupyter notebooks for data science projects:
 5. TikTok Content Moderation
 6. Employee Churn for HR Department
 
-Project 1: Amazon Stock Price Direction
+Project 1: DoorDash Fraudulent Users
 ---------------------------------------
 
 File: Stock_Price_Direction.ipynb
@@ -38,7 +38,63 @@ Expected Outcomes:
 - Performance metrics of the different models, highlighting the best-performing approach for this task.
 - Understanding of the challenges and limitations of predicting stock price movements.
 
-Project 2: Real Estate Engagement
+Project 2: A/B Testing with Python
+---------------------------------------
+
+File: Stock_Price_Direction.ipynb
+
+Overview:
+The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
+
+Key Features:
+- Data exploration and analysis of historical Amazon stock prices.
+- Feature engineering, including calculating moving averages and price ranges.
+- Implementation and training of classical machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) and a deep learning model (Feedforward Neural Network).
+- Model evaluation and comparison using the AUC metric on validation and test sets.
+- Feature importance analysis to identify key drivers of stock price direction.
+
+Technologies:
+- Python
+- Pandas
+- Scikit-learn
+- Keras
+- Tensorflow
+
+Expected Outcomes:
+- ML capable of predicting the direction of Amazon stock price movement.
+- Insights into the predictive power of various features (e.g., trading volume, moving averages).
+- Performance metrics of the different models, highlighting the best-performing approach for this task.
+- Understanding of the challenges and limitations of predicting stock price movements.
+
+Project 3: Amazon Stock Price Direction
+---------------------------------------
+
+File: Stock_Price_Direction.ipynb
+
+Overview:
+The project focuses on creating a machine learning algorithm designed to forecast the directional movement of Amazon's stock price. The model aims to predict whether the price will rise or fall by analysing historical stock data. This predictive capability could prove invaluable for traders seeking to make well-informed investment decisions.
+
+Key Features:
+- Data exploration and analysis of historical Amazon stock prices.
+- Feature engineering, including calculating moving averages and price ranges.
+- Implementation and training of classical machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) and a deep learning model (Feedforward Neural Network).
+- Model evaluation and comparison using the AUC metric on validation and test sets.
+- Feature importance analysis to identify key drivers of stock price direction.
+
+Technologies:
+- Python
+- Pandas
+- Scikit-learn
+- Keras
+- Tensorflow
+
+Expected Outcomes:
+- ML capable of predicting the direction of Amazon stock price movement.
+- Insights into the predictive power of various features (e.g., trading volume, moving averages).
+- Performance metrics of the different models, highlighting the best-performing approach for this task.
+- Understanding of the challenges and limitations of predicting stock price movements.
+
+Project 4: Real Estate Engagement
 ---------------------------------------
 
 File: Property_Click_Prediction.ipynb
@@ -67,7 +123,7 @@ Expected Outcomes:
 - Understanding of the challenges and limitations of predicting property interactions in the real estate market.
 
 
-Project 3: TikTok Content Moderation
+Project 5: TikTok Content Moderation
 ---------------------------------------
 
 File: classifying-claims-and-opinions-in-tiktok-content.ipynb
@@ -93,7 +149,7 @@ Expected Outcomes:
 - Insights into characteristics of claims vs. opinions in social media
 - Performance metrics of the classification model
 
-Project 4: Employee Churn Prediction
+Project 6: Employee Churn Prediction
 ---------------------------------------------------
 
 File: salifort-motors-predicting-employee-churn.ipynb
