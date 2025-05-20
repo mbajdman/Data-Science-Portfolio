@@ -38,6 +38,7 @@ Technologies:
 - Scikit-learn
 - Scipy
 - imb-learn
+- XGBoost
 
 Expected Outcomes:
 - ML model capable of predicting the probability of a user being fraudulent. The goal is to identify users who are likely to engage in fraudulent activities based on their profile and transaction history.
