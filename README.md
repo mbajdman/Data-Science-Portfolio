@@ -1,7 +1,7 @@
 Data Science Portfolio
 ===========================================================================
 
-This repository contains six Jupyter notebooks for data science projects:
+This repository contains notebooks for data science projects:
 
 1. Fraudulent Users Detection
 2. A/B Testing with Python
