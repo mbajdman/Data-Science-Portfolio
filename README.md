@@ -1,4 +1,4 @@
-Data Science Portfolio
+Portfolio
 ===========================================================================
 
 This repository contains notebooks for data science projects:
