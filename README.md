@@ -7,7 +7,7 @@ This repository contains notebooks for data science projects:
 2. A/B Testing with Python
 3. Amazon Stock Price Direction
 4. Real Estate Engagement
-5. Employee Churn for HR Department
+5. Customer Churn Prediction
 
 Project 1: Fraudulent Users Detection
 ---------------------------------------
@@ -136,10 +136,10 @@ Expected Outcomes:
 Project 5: Employee Churn Prediction
 ---------------------------------------------------
 
-File: salifort-motors-predicting-employee-churn.ipynb
+File: https://github.com/mbajdman/Data-Science-Portfolio/blob/main/Customer%20Churn/Customer_Churn_Prediction.ipynb
 
 Overview:
-This project aims to develop a predictive model for employee churn at Salifort Motors. The analysis will help in developing retention strategies and improving workforce planning.
+This project aims to develop a predictive model for customer churn. The analysis will help in developing retention strategies and improving workforce planning.
 
 Key Features:
 - Exploration of employee data to identify churn factors
