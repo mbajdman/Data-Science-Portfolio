@@ -8,6 +8,7 @@ This repository contains notebooks for data science projects:
 3. Amazon Stock Price Direction
 4. Real Estate Engagement
 5. Customer Churn Prediction
+6. Employee Churn
 
 Project 1: Fraudulent Users Detection
 ---------------------------------------
@@ -15,7 +16,7 @@ Project 1: Fraudulent Users Detection
 File: Revolut_User_Fraud_Detection.ipynb
 
 Overview:
-Detection of fraudulent user, where an account can be determined as fraudulent due to the primary reasons as account takeovers by hackers and payment fraud.
+Detection of fraudulent users, where an account can be determined as fraudulent due to the primary reasons as account takeovers by hackers and payment fraud.
 
 Key Features:
 - Data exploration and analysis of Revolut user and transaction data, including examining missingness, data types, and target variable distribution.
@@ -42,7 +43,7 @@ Technologies:
 
 Expected Outcomes:
 - ML model capable of predicting the probability of a user being fraudulent. The goal is to identify users who are likely to engage in fraudulent activities based on their profile and transaction history.
-- Insights into the predictive power of various features related to user characteristics (e.g., country, KYC status, sign-in attempts), transaction details (e.g., currency, entry method, amount, state), and aggregated behavioral patterns (e.g., transaction counts, average transaction amounts over time).
+- Insights into the predictive power of various features related to user characteristics (e.g., country, KYC status, sign-in attempts), transaction details (e.g., currency, entry method, amount, state), and aggregated behavioural patterns (e.g., transaction counts, average transaction amounts over time).
 - Performance metrics of the XGBoost model, likely focusing on the ROC-AUC score, highlighting its effectiveness in distinguishing between fraudulent and non-fraudulent users. This will also involve evaluating the impact of hyperparameter tuning and undersampling on the model's performance.
 - Understanding of the challenges and limitations of fraud detection, particularly in an imbalanced dataset and in a dynamic environment where fraud patterns can evolve. This might include insights into the trade-offs between false positives and false negatives and the practical considerations of deploying such a model.
 
@@ -52,13 +53,13 @@ Project 2: A/B Testing with Python
 File: AB Testing Email Sign-Up.ipynb
 
 Overview:
-Evaluated the impact of changing the colour of the sign-up button. Compared the sign-up rates for the original & new button & determining if this seemingly minor design change could lead to a significant improvement in user conversions.
+Evaluated the impact of changing the colour of the sign-up button. Compared the sign-up rates for the original & new button & determined if this seemingly minor design change could lead to a significant improvement in user conversions.
 
 Key Features:
-- Data Exploration and Analysis: Analyzing pre-test and test data, including daily visitor counts and sign-up rates.
+- Data Exploration and Analysis: Analysing pre-test and test data, including daily visitor counts and sign-up rates.
 - Hypothesis Formulation: Defining the null and alternative hypotheses for the A/B test.
 - Experiment Design: Determining key parameters such as significance level (alpha), statistical power, minimum detectable effect (MDE), and calculating the required sample size and experiment duration.
-- Validity Threat Assessment: Performing an AA test to ensure group comparability and a Sample Ratio Mismatch (SRM) check using the Chi-Square test to validate the randomization algorithm.
+- Validity Threat Assessment: Performing an AA test to ensure group comparability and a Sample Ratio Mismatch (SRM) check using the Chi-Square test to validate the randomisation algorithm.
 - Statistical Inference: Applying Chi-Squared and T-Tests for proportions to compare the sign-up rates of the control and treatment groups.
 - Confidence Interval Analysis: Calculating and interpreting confidence intervals for the difference in sign-up rates to understand the range of potential improvement.
 - Launch Decision: Making a data-driven recommendation based on the statistical significance and practical impact of the experiment results.
@@ -71,11 +72,11 @@ Technologies:
 - seaborn
 
 Expected Outcomes:
-- Determination of the impact of button color on sign-up rates: A clear conclusion on whether changing the sign-up button color from blue to green has a statistically significant impact on the sign-up rate.
+- Determination of the impact of button colour on sign-up rates: A clear conclusion on whether changing the sign-up button colour from blue to green has a statistically significant impact on the sign-up rate.
 - Quantification of the lift (if any) in sign-up rate: A measurement of the percentage increase or decrease in sign-up rate observed in the treatment group compared to the control group.
 - Assessment of the experiment's validity: Confirmation that the experiment design and execution were sound, based on the AA test and SRM check results.
 - Recommendation for future action: A data-backed decision on whether to implement the green button or maintain the original blue button.
-- Insights into user behavior: Potential insights into how a seemingly small design change can influence user conversion.
+- Insights into user behaviour: Potential insights into how a seemingly small design change can influence user conversion.
 
 Project 3: Amazon Stock Price Direction
 ---------------------------------------
@@ -110,7 +111,7 @@ Project 4: Real Estate Engagement
 
 File: Property_Click_Prediction.ipynb
 
-The project aims to develop a machine learning model that predicts the number of interactions (clicks or views) a property will receive within a specific timeframe of its activation on a real estate platform. By analyzing historical property data and interaction patterns, the model strives to forecast property engagement, which can be valuable for real estate businesses aiming to optimize property listings and marketing strategies.
+The project aims to develop a machine learning model that predicts the number of interactions (clicks or views) a property will receive within a specific timeframe of its activation on a real estate platform. By analysing historical property data and interaction patterns, the model strives to forecast property engagement, which can be valuable for real estate businesses aiming to optimise property listings and marketing strategies.
 
 Key Features:
 - Data exploration and preprocessing of property features (e.g., size, location, amenities) and interaction timestamps.
@@ -133,7 +134,7 @@ Expected Outcomes:
 - Performance metrics of different models, highlighting the most accurate approach for this task.
 - Understanding of the challenges and limitations of predicting property interactions in the real estate market.
 
-Project 5: Employee Churn Prediction
+Project 5: Customer Churn Prediction
 ---------------------------------------------------
 
 File: https://github.com/mbajdman/Data-Science-Portfolio/blob/main/Customer%20Churn/Customer_Churn_Prediction.ipynb
@@ -152,12 +153,45 @@ Technologies:
 - Python
 - Pandas
 - Scikit-learn
-- Data visualization libraries (e.g., Matplotlib, Seaborn)
+- Data visualisation libraries (e.g., Matplotlib, Seaborn)
 
 Expected Outcomes:
 - A trained model for predicting employee churn
 - Insights into factors contributing to employee turnover
 - Recommendations for improving employee retention
+
+Project 6: Employee Churn Prediction
+---------------------------------------------------
+
+File: https://github.com/mbajdman/Data-Science-Portfolio/blob/main/Customer%20Churn/Customer_Churn_Prediction.ipynb
+
+Overview: Developed machine learning models to predict employee turnover for an HR department. Analysed employee data to identify key factors influencing departure and built classification models to proactively identify employees at risk of leaving.
+
+Key Features:
+
+Data Exploration and Cleaning: Explored the dataset to understand variables, identified and handled duplicates, and assessed potential outliers.
+Data Visualisation: Created various plots (boxplots, histograms, scatterplots) to visualise relationships between variables and understand patterns related to employee turnover.
+Feature Engineering: Engineered new features and dropped potentially misleading ones to improve model performance.
+Model Building: Constructed and evaluated several classification models, including Logistic Regression, Decision Tree, XGBoost, and Random Forest.
+Model Evaluation: Evaluated models using metrics such as accuracy, precision, recall, F1-score, and AUC on both training and test datasets.
+Hyperparameter Tuning: Utilised GridSearchCV to find the best parameters for tree-based models through cross-validation.
+Model Comparison: Compared the performance of different models to determine the most suitable one for the prediction task.
+Technologies:
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+XGBoost
+Pickle
+Expected Outcomes:
+
+Identification of key drivers of employee turnover: Insights into which factors (e.g., working hours, projects, satisfaction level, tenure) are most strongly associated with employees leaving the company.
+Development of predictive models for employee turnover: Trained and evaluated models capable of predicting which employees are at risk of leaving.
+Recommendation of the best-performing model: Selection of the most effective model based on evaluation metrics and considerations of potential data leakage.
+Actionable insights for the HR department: Data-driven information that the HR department can use to improve employee satisfaction and retention strategies.
 
 Usage Instructions:
 -------------------
