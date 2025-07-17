@@ -197,7 +197,7 @@ Actionable insights for the HR department: Data-driven information that the HR d
 Usage Instructions:
 -------------------
 
-For both notebooks:
+For all notebooks:
 1. Ensure all required libraries are installed
 2. Load the respective datasets
 3. Run the notebook cells sequentially
