@@ -176,16 +176,17 @@ Model Building: Constructed and evaluated several classification models, includi
 Model Evaluation: Evaluated models using metrics such as accuracy, precision, recall, F1-score, and AUC on both training and test datasets.
 Hyperparameter Tuning: Utilised GridSearchCV to find the best parameters for tree-based models through cross-validation.
 Model Comparison: Compared the performance of different models to determine the most suitable one for the prediction task.
-Technologies:
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
-Pickle
+Technologies:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- Pickle
+
 Expected Outcomes:
 
 Identification of key drivers of employee turnover: Insights into which factors (e.g., working hours, projects, satisfaction level, tenure) are most strongly associated with employees leaving the company.
